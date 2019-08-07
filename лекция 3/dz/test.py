@@ -1,13 +1,13 @@
 while True:
 
 	b = input('Введите текст: ')
-	z = (b.lower())
+	z = b.lower()
 	w = z.replace(" ", "")
 	l = "".join(w for w in w if w not in ('!','.',':',',','?',';','-','_','|'))
 	w = l
 	s = w
-	(list(s))
-	a = ("".join(s[::-1]))
+	list(s)
+	a = "".join(s[::-1])
 
 	p = ('stop')
 	if b == p:
