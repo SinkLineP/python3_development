@@ -6,7 +6,7 @@ while True:
 	l = "".join(w for w in w if w not in ('!','.',':',',','?',';','-','_','|'))
 	w = l
 	s = w
-	print(list(s))
+	(list(s))
 	a = ("".join(s[::-1]))
 
 	p = ('stop')
